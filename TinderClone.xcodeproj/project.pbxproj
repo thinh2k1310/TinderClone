@@ -11,6 +11,10 @@
 		F30734E12792A5C800C51BBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30734E02792A5C800C51BBF /* ContentView.swift */; };
 		F30734E32792A5CB00C51BBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F30734E22792A5CB00C51BBF /* Assets.xcassets */; };
 		F30734E62792A5CB00C51BBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F30734E52792A5CB00C51BBF /* Preview Assets.xcassets */; };
+		F30734ED2792A78400C51BBF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30734EC2792A78400C51BBF /* MainView.swift */; };
+		F30734EF2792A8E200C51BBF /* TabBarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30734EE2792A8E200C51BBF /* TabBarButtonView.swift */; };
+		F30734F12792AECB00C51BBF /* AppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30734F02792AECA00C51BBF /* AppStateManager.swift */; };
+		F3A1EAF22792BCB60040CC32 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A1EAF12792BCB60040CC32 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		F30734E02792A5C800C51BBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F30734E22792A5CB00C51BBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F30734E52792A5CB00C51BBF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F30734EC2792A78400C51BBF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F30734EE2792A8E200C51BBF /* TabBarButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarButtonView.swift; sourceTree = "<group>"; };
+		F30734F02792AECA00C51BBF /* AppStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateManager.swift; sourceTree = "<group>"; };
+		F3A1EAF12792BCB60040CC32 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,9 @@
 			children = (
 				F30734DE2792A5C800C51BBF /* TinderCloneApp.swift */,
 				F30734E02792A5C800C51BBF /* ContentView.swift */,
+				F3A1EAF32792C5020040CC32 /* MainTabBar */,
+				F30734F02792AECA00C51BBF /* AppStateManager.swift */,
+				F3A1EAF12792BCB60040CC32 /* Extension.swift */,
 				F30734E22792A5CB00C51BBF /* Assets.xcassets */,
 				F30734E42792A5CB00C51BBF /* Preview Content */,
 			);
@@ -65,6 +76,15 @@
 				F30734E52792A5CB00C51BBF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F3A1EAF32792C5020040CC32 /* MainTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				F30734EC2792A78400C51BBF /* MainView.swift */,
+				F30734EE2792A8E200C51BBF /* TabBarButtonView.swift */,
+			);
+			path = MainTabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F30734EF2792A8E200C51BBF /* TabBarButtonView.swift in Sources */,
 				F30734E12792A5C800C51BBF /* ContentView.swift in Sources */,
+				F30734ED2792A78400C51BBF /* MainView.swift in Sources */,
+				F3A1EAF22792BCB60040CC32 /* Extension.swift in Sources */,
 				F30734DF2792A5C800C51BBF /* TinderCloneApp.swift in Sources */,
+				F30734F12792AECB00C51BBF /* AppStateManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
