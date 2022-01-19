@@ -18,7 +18,17 @@
 		F370051C2793086000A8FCA4 /* RoundedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F370051B2793086000A8FCA4 /* RoundedImage.swift */; };
 		F370051F27930A2800A8FCA4 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F370051E27930A2800A8FCA4 /* Kingfisher */; };
 		F37005222793161E00A8FCA4 /* ProfileSwipePromo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37005212793161E00A8FCA4 /* ProfileSwipePromo.swift */; };
+		F389FBEA27953E0A005D4C90 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = F389FBE927953E0A005D4C90 /* Message.swift */; };
+		F389FBEC27953EB3005D4C90 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F389FBEB27953EB3005D4C90 /* Person.swift */; };
+		F389FBEE27954006005D4C90 /* MessageThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = F389FBED27954006005D4C90 /* MessageThread.swift */; };
+		F389FBF0279540BA005D4C90 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F389FBEF279540BA005D4C90 /* MessageView.swift */; };
+		F389FBF32795437F005D4C90 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F389FBF22795437F005D4C90 /* ChatView.swift */; };
+		F389FBF5279543C5005D4C90 /* ChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F389FBF4279543C5005D4C90 /* ChatManager.swift */; };
+		F389FBF7279549D0005D4C90 /* ChatViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F389FBF6279549D0005D4C90 /* ChatViewHeader.swift */; };
+		F389FBF92795D1F2005D4C90 /* MessageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F389FBF82795D1F2005D4C90 /* MessageListView.swift */; };
+		F389FBFB2795D246005D4C90 /* MessageListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F389FBFA2795D246005D4C90 /* MessageListViewModel.swift */; };
 		F3A1EAF22792BCB60040CC32 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A1EAF12792BCB60040CC32 /* Extension.swift */; };
+		F3ACDE272797ED5B005BE913 /* MessageRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ACDE262797ED5B005BE913 /* MessageRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +43,17 @@
 		F37005182793067200A8FCA4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		F370051B2793086000A8FCA4 /* RoundedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedImage.swift; sourceTree = "<group>"; };
 		F37005212793161E00A8FCA4 /* ProfileSwipePromo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSwipePromo.swift; sourceTree = "<group>"; };
+		F389FBE927953E0A005D4C90 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		F389FBEB27953EB3005D4C90 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		F389FBED27954006005D4C90 /* MessageThread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageThread.swift; sourceTree = "<group>"; };
+		F389FBEF279540BA005D4C90 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		F389FBF22795437F005D4C90 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		F389FBF4279543C5005D4C90 /* ChatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatManager.swift; sourceTree = "<group>"; };
+		F389FBF6279549D0005D4C90 /* ChatViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewHeader.swift; sourceTree = "<group>"; };
+		F389FBF82795D1F2005D4C90 /* MessageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListView.swift; sourceTree = "<group>"; };
+		F389FBFA2795D246005D4C90 /* MessageListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListViewModel.swift; sourceTree = "<group>"; };
 		F3A1EAF12792BCB60040CC32 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		F3ACDE262797ED5B005BE913 /* MessageRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +89,10 @@
 			children = (
 				F30734DE2792A5C800C51BBF /* TinderCloneApp.swift */,
 				F30734E02792A5C800C51BBF /* ContentView.swift */,
+				F389FBE827953DFB005D4C90 /* Model */,
 				F3A1EAF32792C5020040CC32 /* MainTabBar */,
 				F370051A2793068900A8FCA4 /* Profile */,
+				F389FBF1279540BF005D4C90 /* Message */,
 				F30734F02792AECA00C51BBF /* AppStateManager.swift */,
 				F370052027930BD100A8FCA4 /* HelperView */,
 				F3A1EAF12792BCB60040CC32 /* Extension.swift */,
@@ -103,6 +125,30 @@
 				F370051B2793086000A8FCA4 /* RoundedImage.swift */,
 			);
 			path = HelperView;
+			sourceTree = "<group>";
+		};
+		F389FBE827953DFB005D4C90 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F389FBE927953E0A005D4C90 /* Message.swift */,
+				F389FBEB27953EB3005D4C90 /* Person.swift */,
+				F389FBED27954006005D4C90 /* MessageThread.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F389FBF1279540BF005D4C90 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				F389FBEF279540BA005D4C90 /* MessageView.swift */,
+				F389FBF22795437F005D4C90 /* ChatView.swift */,
+				F389FBF4279543C5005D4C90 /* ChatManager.swift */,
+				F389FBF6279549D0005D4C90 /* ChatViewHeader.swift */,
+				F389FBF82795D1F2005D4C90 /* MessageListView.swift */,
+				F389FBFA2795D246005D4C90 /* MessageListViewModel.swift */,
+				F3ACDE262797ED5B005BE913 /* MessageRowView.swift */,
+			);
+			path = Message;
 			sourceTree = "<group>";
 		};
 		F3A1EAF32792C5020040CC32 /* MainTabBar */ = {
@@ -190,15 +236,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F389FBF5279543C5005D4C90 /* ChatManager.swift in Sources */,
+				F389FBF92795D1F2005D4C90 /* MessageListView.swift in Sources */,
 				F30734EF2792A8E200C51BBF /* TabBarButtonView.swift in Sources */,
 				F370051C2793086000A8FCA4 /* RoundedImage.swift in Sources */,
+				F389FBF7279549D0005D4C90 /* ChatViewHeader.swift in Sources */,
+				F3ACDE272797ED5B005BE913 /* MessageRowView.swift in Sources */,
 				F30734E12792A5C800C51BBF /* ContentView.swift in Sources */,
 				F30734ED2792A78400C51BBF /* MainView.swift in Sources */,
+				F389FBF32795437F005D4C90 /* ChatView.swift in Sources */,
+				F389FBEC27953EB3005D4C90 /* Person.swift in Sources */,
+				F389FBF0279540BA005D4C90 /* MessageView.swift in Sources */,
 				F37005222793161E00A8FCA4 /* ProfileSwipePromo.swift in Sources */,
 				F3A1EAF22792BCB60040CC32 /* Extension.swift in Sources */,
 				F30734DF2792A5C800C51BBF /* TinderCloneApp.swift in Sources */,
+				F389FBEA27953E0A005D4C90 /* Message.swift in Sources */,
+				F389FBFB2795D246005D4C90 /* MessageListViewModel.swift in Sources */,
 				F37005192793067200A8FCA4 /* ProfileView.swift in Sources */,
 				F30734F12792AECB00C51BBF /* AppStateManager.swift in Sources */,
+				F389FBEE27954006005D4C90 /* MessageThread.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

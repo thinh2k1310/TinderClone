@@ -20,7 +20,7 @@ struct MainView: View {
             let view = Text("star")
             return AnyView(view)
         case .message:
-            let view = Text("message")
+            let view = MessageListView()
             return AnyView(view)
         case .profile:
             let view = ProfileView()
@@ -28,29 +28,32 @@ struct MainView: View {
         }
     }
     var body: some View {
-        ZStack{
-            Color(.systemGray6)
-                .opacity(0.35)
+        NavigationView {
+            ZStack{
+                Color(.systemGray6)
+                    .opacity(0.35)
+                    .edgesIgnoringSafeArea(.vertical)
+                VStack{
+                    HStack{
+                        Spacer()
+                        TabBarButtonView(type : .fire)
+                        Spacer()
+                        TabBarButtonView(type : .star)
+                        Spacer()
+                        TabBarButtonView(type : .message)
+                        Spacer()
+                        TabBarButtonView(type : .profile)
+                        Spacer()
+                    }//:HSTACK
+                    .padding(.top,30)
+                    .frame(height : 100)
+                    correctViewForState()
+                    Spacer()
+                }//:VSTACK
                 .edgesIgnoringSafeArea(.vertical)
-            VStack{
-                HStack{
-                    Spacer()
-                    TabBarButtonView(type : .fire)
-                    Spacer()
-                    TabBarButtonView(type : .star)
-                    Spacer()
-                    TabBarButtonView(type : .message)
-                    Spacer()
-                    TabBarButtonView(type : .profile)
-                    Spacer()
-                }//:HSTACK
-                .padding(.top,30)
-                .frame(height : 100)
-                correctViewForState()
-                Spacer()
-            }//:VSTACK
-            .edgesIgnoringSafeArea(.vertical)
-            
+                
+            }
+            .navigationBarHidden(true)
         }//:ZSTACK
     }
 }
