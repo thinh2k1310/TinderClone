@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct TinderCloneApp: App {
+    @ObservedObject var userMng : UserManager = UserManager()
     var body: some Scene {
         WindowGroup {
             ContentView()

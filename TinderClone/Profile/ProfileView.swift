@@ -10,12 +10,16 @@ import SwiftUI
 
 struct ProfileView: View {
     // MARK: - PROPERTIES
-   
+    @EnvironmentObject var userMng : UserManager
+    @EnvironmentObject var appState : AppStateManager
+    var user : User{
+        return userMng.currentUser
+    }
     // MARK: - BODY
     var body: some View {
         VStack(spacing : 0){
             ZStack(alignment: .topTrailing){
-                RoundedImage(url : URL(string: "https://picsum.photos/400"))
+                RoundedImage(url : user.imageURLS.first)
                     .frame(height : 200)
                 Button(action: {
                     
@@ -33,11 +37,11 @@ struct ProfileView: View {
             Spacer()
                 .frame(height : 20)
             Group {
-                Text("Quoc Thinh, 21")
+                Text("\(user.name),\(user.age)")
                     .font(.system(size : 26 , weight: .medium))
                 .foregroundColor(.textTilte)
             Spacer().frame(height:6)
-            Text("iOS Developer")
+                Text(user.jobTitle)
             Spacer().frame(height : 20)
             }
             HStack(alignment :  .top){
@@ -116,11 +120,13 @@ struct ProfileView: View {
             .padding()
             .background(Color.pink)
             .cornerRadius(12)
-            ZStack {
-                Color.gray.opacity(0.15)
-                ProfileSwipePromo()
+            if !user.goldSubcriber {
+                ZStack {
+                    Color.gray.opacity(0.15)
+                    ProfileSwipePromo()
+                }
+                .padding(.top,18)
             }
-            .padding(.top,18)
             Spacer()
         }//:VSTACK
         .foregroundColor(.black.opacity(0.75))
@@ -131,5 +137,7 @@ struct ProfileView_Previews: PreviewProvider {
     static var previews: some View {
         ProfileView()
             .background(Color.defaultBackground)
+            .environmentObject(UserManager())
+            .environmentObject(AppStateManager())
     }
 }

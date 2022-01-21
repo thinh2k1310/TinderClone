@@ -10,6 +10,7 @@ import SwiftUI
 struct MainView: View {
     // MARK: - PROPERTIES
     @EnvironmentObject var appState : AppStateManager
+    @EnvironmentObject var userMng : UserManager
     // MARK: - FUNCTION
     func correctViewForState() -> some View {
         switch appState.selectedTab{
@@ -17,7 +18,7 @@ struct MainView: View {
             let view = Text("fire")
             return AnyView(view)
         case .star:
-            let view = Text("star")
+            let view = MatchesView()
             return AnyView(view)
         case .message:
             let view = MessageListView()
@@ -52,6 +53,13 @@ struct MainView: View {
                 }//:VSTACK
                 .edgesIgnoringSafeArea(.vertical)
                 
+                if (appState.showPurchasePopup){
+                    PurchasePopup(isVisible: $appState.showPurchasePopup)
+                        .animation(.spring(response: 0.3, dampingFraction: 0.75, blendDuration: 0.5))
+                        .transition(.offset(y : 800))
+                        
+                }
+                
             }
             .navigationBarHidden(true)
         }//:ZSTACK
@@ -61,5 +69,6 @@ struct MainView: View {
 struct MainView_Previews: PreviewProvider {
     static var previews: some View {
         MainView().environmentObject(AppStateManager())
+            .environmentObject(UserManager())
     }
 }

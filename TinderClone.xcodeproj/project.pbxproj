@@ -27,8 +27,19 @@
 		F389FBF7279549D0005D4C90 /* ChatViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F389FBF6279549D0005D4C90 /* ChatViewHeader.swift */; };
 		F389FBF92795D1F2005D4C90 /* MessageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F389FBF82795D1F2005D4C90 /* MessageListView.swift */; };
 		F389FBFB2795D246005D4C90 /* MessageListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F389FBFA2795D246005D4C90 /* MessageListViewModel.swift */; };
+		F39AB5DA27991A24003A32F5 /* TopPicksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39AB5D927991A24003A32F5 /* TopPicksView.swift */; };
+		F39AB5DC27991B68003A32F5 /* MatchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39AB5DB27991B68003A32F5 /* MatchesView.swift */; };
+		F39AB5DE27994A6C003A32F5 /* PurchasePopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39AB5DD27994A6C003A32F5 /* PurchasePopup.swift */; };
 		F3A1EAF22792BCB60040CC32 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A1EAF12792BCB60040CC32 /* Extension.swift */; };
 		F3ACDE272797ED5B005BE913 /* MessageRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ACDE262797ED5B005BE913 /* MessageRowView.swift */; };
+		F3ACDE2D2797FF11005BE913 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ACDE2C2797FF11005BE913 /* UserManager.swift */; };
+		F3ACDE2F279801A7005BE913 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ACDE2E279801A7005BE913 /* User.swift */; };
+		F3ACDE3127980450005BE913 /* LikesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ACDE3027980450005BE913 /* LikesView.swift */; };
+		F3ACDE3427980936005BE913 /* PersonSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ACDE3327980936005BE913 /* PersonSquare.swift */; };
+		F3E6D2DB279A5A3400004A1A /* PurchaseSwipePromo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E6D2DA279A5A3400004A1A /* PurchaseSwipePromo.swift */; };
+		F3E6D2DD279A5D5D00004A1A /* PurchaseOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E6D2DC279A5D5D00004A1A /* PurchaseOptionView.swift */; };
+		F3E6D2DF279A8E2100004A1A /* Subcription.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E6D2DE279A8E2100004A1A /* Subcription.swift */; };
+		F3E6D2E1279A9A9B00004A1A /* RoundedTopCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E6D2E0279A9A9B00004A1A /* RoundedTopCorner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,8 +63,19 @@
 		F389FBF6279549D0005D4C90 /* ChatViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewHeader.swift; sourceTree = "<group>"; };
 		F389FBF82795D1F2005D4C90 /* MessageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListView.swift; sourceTree = "<group>"; };
 		F389FBFA2795D246005D4C90 /* MessageListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListViewModel.swift; sourceTree = "<group>"; };
+		F39AB5D927991A24003A32F5 /* TopPicksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPicksView.swift; sourceTree = "<group>"; };
+		F39AB5DB27991B68003A32F5 /* MatchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesView.swift; sourceTree = "<group>"; };
+		F39AB5DD27994A6C003A32F5 /* PurchasePopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasePopup.swift; sourceTree = "<group>"; };
 		F3A1EAF12792BCB60040CC32 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		F3ACDE262797ED5B005BE913 /* MessageRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRowView.swift; sourceTree = "<group>"; };
+		F3ACDE2C2797FF11005BE913 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		F3ACDE2E279801A7005BE913 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F3ACDE3027980450005BE913 /* LikesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesView.swift; sourceTree = "<group>"; };
+		F3ACDE3327980936005BE913 /* PersonSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonSquare.swift; sourceTree = "<group>"; };
+		F3E6D2DA279A5A3400004A1A /* PurchaseSwipePromo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseSwipePromo.swift; sourceTree = "<group>"; };
+		F3E6D2DC279A5D5D00004A1A /* PurchaseOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseOptionView.swift; sourceTree = "<group>"; };
+		F3E6D2DE279A8E2100004A1A /* Subcription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subcription.swift; sourceTree = "<group>"; };
+		F3E6D2E0279A9A9B00004A1A /* RoundedTopCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTopCorner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,13 +111,16 @@
 			children = (
 				F30734DE2792A5C800C51BBF /* TinderCloneApp.swift */,
 				F30734E02792A5C800C51BBF /* ContentView.swift */,
+				F30734F02792AECA00C51BBF /* AppStateManager.swift */,
+				F3ACDE2C2797FF11005BE913 /* UserManager.swift */,
 				F389FBE827953DFB005D4C90 /* Model */,
 				F3A1EAF32792C5020040CC32 /* MainTabBar */,
 				F370051A2793068900A8FCA4 /* Profile */,
 				F389FBF1279540BF005D4C90 /* Message */,
-				F30734F02792AECA00C51BBF /* AppStateManager.swift */,
+				F3ACDE3227980456005BE913 /* MatchesView */,
+				F39AB5DF27994A71003A32F5 /* Popups */,
 				F370052027930BD100A8FCA4 /* HelperView */,
-				F3A1EAF12792BCB60040CC32 /* Extension.swift */,
+				F39AB5E027994A8B003A32F5 /* Utility */,
 				F30734E22792A5CB00C51BBF /* Assets.xcassets */,
 				F30734E42792A5CB00C51BBF /* Preview Content */,
 			);
@@ -133,6 +158,8 @@
 				F389FBE927953E0A005D4C90 /* Message.swift */,
 				F389FBEB27953EB3005D4C90 /* Person.swift */,
 				F389FBED27954006005D4C90 /* MessageThread.swift */,
+				F3ACDE2E279801A7005BE913 /* User.swift */,
+				F3E6D2DE279A8E2100004A1A /* Subcription.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -151,6 +178,25 @@
 			path = Message;
 			sourceTree = "<group>";
 		};
+		F39AB5DF27994A71003A32F5 /* Popups */ = {
+			isa = PBXGroup;
+			children = (
+				F39AB5DD27994A6C003A32F5 /* PurchasePopup.swift */,
+				F3E6D2DA279A5A3400004A1A /* PurchaseSwipePromo.swift */,
+				F3E6D2DC279A5D5D00004A1A /* PurchaseOptionView.swift */,
+			);
+			path = Popups;
+			sourceTree = "<group>";
+		};
+		F39AB5E027994A8B003A32F5 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				F3A1EAF12792BCB60040CC32 /* Extension.swift */,
+				F3E6D2E0279A9A9B00004A1A /* RoundedTopCorner.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		F3A1EAF32792C5020040CC32 /* MainTabBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +204,17 @@
 				F30734EE2792A8E200C51BBF /* TabBarButtonView.swift */,
 			);
 			path = MainTabBar;
+			sourceTree = "<group>";
+		};
+		F3ACDE3227980456005BE913 /* MatchesView */ = {
+			isa = PBXGroup;
+			children = (
+				F3ACDE3327980936005BE913 /* PersonSquare.swift */,
+				F3ACDE3027980450005BE913 /* LikesView.swift */,
+				F39AB5D927991A24003A32F5 /* TopPicksView.swift */,
+				F39AB5DB27991B68003A32F5 /* MatchesView.swift */,
+			);
+			path = MatchesView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,25 +293,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3E6D2E1279A9A9B00004A1A /* RoundedTopCorner.swift in Sources */,
 				F389FBF5279543C5005D4C90 /* ChatManager.swift in Sources */,
 				F389FBF92795D1F2005D4C90 /* MessageListView.swift in Sources */,
+				F39AB5DA27991A24003A32F5 /* TopPicksView.swift in Sources */,
+				F3E6D2DF279A8E2100004A1A /* Subcription.swift in Sources */,
 				F30734EF2792A8E200C51BBF /* TabBarButtonView.swift in Sources */,
+				F3ACDE3427980936005BE913 /* PersonSquare.swift in Sources */,
+				F39AB5DE27994A6C003A32F5 /* PurchasePopup.swift in Sources */,
 				F370051C2793086000A8FCA4 /* RoundedImage.swift in Sources */,
+				F39AB5DC27991B68003A32F5 /* MatchesView.swift in Sources */,
 				F389FBF7279549D0005D4C90 /* ChatViewHeader.swift in Sources */,
 				F3ACDE272797ED5B005BE913 /* MessageRowView.swift in Sources */,
 				F30734E12792A5C800C51BBF /* ContentView.swift in Sources */,
 				F30734ED2792A78400C51BBF /* MainView.swift in Sources */,
+				F3ACDE2D2797FF11005BE913 /* UserManager.swift in Sources */,
 				F389FBF32795437F005D4C90 /* ChatView.swift in Sources */,
 				F389FBEC27953EB3005D4C90 /* Person.swift in Sources */,
 				F389FBF0279540BA005D4C90 /* MessageView.swift in Sources */,
 				F37005222793161E00A8FCA4 /* ProfileSwipePromo.swift in Sources */,
 				F3A1EAF22792BCB60040CC32 /* Extension.swift in Sources */,
+				F3E6D2DD279A5D5D00004A1A /* PurchaseOptionView.swift in Sources */,
 				F30734DF2792A5C800C51BBF /* TinderCloneApp.swift in Sources */,
+				F3E6D2DB279A5A3400004A1A /* PurchaseSwipePromo.swift in Sources */,
 				F389FBEA27953E0A005D4C90 /* Message.swift in Sources */,
 				F389FBFB2795D246005D4C90 /* MessageListViewModel.swift in Sources */,
+				F3ACDE3127980450005BE913 /* LikesView.swift in Sources */,
 				F37005192793067200A8FCA4 /* ProfileView.swift in Sources */,
 				F30734F12792AECB00C51BBF /* AppStateManager.swift in Sources */,
 				F389FBEE27954006005D4C90 /* MessageThread.swift in Sources */,
+				F3ACDE2F279801A7005BE913 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
