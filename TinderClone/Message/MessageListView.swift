@@ -31,6 +31,7 @@ struct MessageListView: View {
         VStack {
             HStack {
                 TextField("Search matches",text: $searchText)
+                    .textCase(.lowercase)
                     .padding(.top,7)
                     .padding(.horizontal , 30)
                     .background(Color.textfieldBackground)
